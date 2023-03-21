@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+/* Cabecera */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Barra lateral */
+aside {
+  background-color: #555;
+  color: #fff;
+  padding: 20px;
+  float: left;
+  width: 20%;
+  height: 45vh;
+}
+
+/* Artículos */
+article {
+  background-color: #ddd;
+  color: #333;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+article h2 {
+  margin-top: 0;
+}
+
+/*Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  clear: both;
+}
